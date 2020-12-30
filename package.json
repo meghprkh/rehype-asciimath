@@ -1,0 +1,31 @@
+{
+  "name": "rehype-asciimath",
+  "version": "1.0.0",
+  "description": "A rehype plugin for ASCIIMath",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "asciimath": "git+ssh://git@github.com/meghprkh/asciimathml.git#commonjs",
+    "hast-util-to-text": "^2.0.0",
+    "unist-util-visit": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghprkh/rehype-asciimath.git"
+  },
+  "keywords": [
+    "ReHype",
+    "Markdown",
+    "ASCIIMath",
+    "Katex",
+    "Latex"
+  ],
+  "author": "Megh Parikh <meghprkh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meghprkh/rehype-asciimath/issues"
+  },
+  "homepage": "https://github.com/meghprkh/rehype-asciimath#readme"
+}
